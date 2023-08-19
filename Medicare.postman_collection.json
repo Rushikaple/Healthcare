@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "1198a271-05bb-4943-b3df-16a8293ac2a0",
+		"name": "Medicare",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26310344"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseurl",
+			"value": "http://localhost:8082/medicare/",
+			"type": "string"
+		},
+		{
+			"key": "apikey",
+			"value": "PMAK-64e0eebd7dcd18003fcdb09e-0c9099f22580ce7fc1d639d3d9be58962e",
+			"type": "string"
+		}
+	]
+}
